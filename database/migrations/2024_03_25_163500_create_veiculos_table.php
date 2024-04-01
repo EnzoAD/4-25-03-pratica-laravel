@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('fabricante');
             $table->string('modelo');
             $table->integer('cavalos');
+            $table->string('portas');
+            $table->integer('marchas');
             $table->timestamps();
         });
     }
